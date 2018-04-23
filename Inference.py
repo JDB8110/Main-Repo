@@ -34,7 +34,6 @@ class Inference:
         pred = self.clf.predict(array)
         print("The model predicts {} likes!".format(pred[0]), '\n\n')
         
-        
 if __name__ == '__main__':
     inf = Inference()
     region = np.array([sys.argv[1]])
